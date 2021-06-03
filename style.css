@@ -1,0 +1,30 @@
+body{
+    background: linear-gradient(#00D4FF,#00FF80);
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    text-align: center;
+}
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    text-align: center;
+}
+.grid{
+    display: inline-flex;
+    flex-wrap:wrap;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+    height: 525px;
+    width: 525px;
+    justify-content: center;
+    align-items: center;
+    place-content: centre;
+    border: 1px solid mintcream;
+}
